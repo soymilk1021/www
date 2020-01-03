@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="update.php" method="POST">
+    要修改用戶的ID為：
+    <input type="text" name="id">
+    <br>
+    修改帳號：
+    <input type="text" name="username">
+    <br>
+    修改密碼：
+    <input type="password" name="pwd">
+    <br>
+    修改姓名：
+    <input type="text" name="name">
+    <br>
+    修改權限
+    <select name="rank">
+        <option value="1">管理者</option>
+        <option value="">會員</option>
+    </select>
+    <button type="submit">修改</button>
+</form>
+</body>
+</html>
